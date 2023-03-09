@@ -19,13 +19,6 @@ class CustomThread(Thread):
         #create data frame
         df = create_pandasDF_financeYahoo(entreprise_list,my_header_list)
         self.value = df
-def scrap_it(link) :
-    #Scrapping
-    entreprise_list,my_header_list = main_scrap_financeYahoo(link)
-    #create data frame
-    df = create_pandasDF_financeYahoo(entreprise_list,my_header_list)
-    return df
-
 
 '''
 Since we know that financeYahoo only display 200 entreprise,
