@@ -34,7 +34,7 @@ dag = DAG(
 
 # Define the Python Operators that will run the functions
 scrap_financeYahoo_operator = PythonOperator(
-    task_id='Yahoo scrapping',
+    task_id='Yahoo_scrapping',
     python_callable=dag_scrapping,
     dag=dag
 )
