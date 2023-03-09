@@ -1,0 +1,409 @@
+1678351152522	geckodriver	INFO	Listening on 127.0.0.1:50178
+1678351155614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofileGT9pwW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351156021	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351156028	Marionette	INFO	Listening on port 50193
+Read port: 50193
+WebDriver BiDi listening on ws://127.0.0.1:50179
+1678351156212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofileGT9pwW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50179/devtools/browser/ca266c81-7709-45cb-8579-62961af5ef2e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.yahoo.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678351342347	Marionette	INFO	Stopped listening on port 50193
+Dynamically enable window occlusion 1
+1678351344320	geckodriver	INFO	Listening on 127.0.0.1:64992
+1678351347363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilew30KoJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351347711	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351347715	Marionette	INFO	Listening on port 65003
+Read port: 65003
+WebDriver BiDi listening on ws://127.0.0.1:64993
+1678351347873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilew30KoJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64993/devtools/browser/856a970f-3957-45a9-953e-aae6d3c057bc
+1678351360284	Marionette	INFO	Stopped listening on port 65003
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678351370061	geckodriver	INFO	Listening on 127.0.0.1:65065
+1678351373088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65066" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilesfL6tY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351373468	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351373472	Marionette	INFO	Listening on port 65077
+Read port: 65077
+WebDriver BiDi listening on ws://127.0.0.1:65066
+1678351373614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilesfL6tY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65066/devtools/browser/17592a4c-4292-40d5-a8e9-8a9dda32d5e2
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678351456561	Marionette	INFO	Stopped listening on port 65077
+Dynamically enable window occlusion 1
+1678351482855	geckodriver	INFO	Listening on 127.0.0.1:65350
+1678351485897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofile5QW3mE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351486254	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351486258	Marionette	INFO	Listening on port 65361
+Read port: 65361
+WebDriver BiDi listening on ws://127.0.0.1:65351
+1678351486401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofile5QW3mE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65351/devtools/browser/0968e5b1-0825-49e4-8dcf-812bdd706ad6
+1678351522945	Marionette	INFO	Stopped listening on port 65361
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resou1678351528105	Marionette	INFO	Stopped listening on port 65463
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678351545030	geckodriver	INFO	Listening on 127.0.0.1:49170
+1678351548076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilesFaSZQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351548441	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351548446	Marionette	INFO	Listening on port 49187
+Read port: 49187
+WebDriver BiDi listening on ws://127.0.0.1:49171
+1678351548587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilesFaSZQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49171/devtools/browser/4fb77b8a-ae75-4fca-866f-81c1f1f982e7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.yahoo.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678351640440	Marionette	INFO	Stopped listening on port 49187
+Dynamically enable window occlusion 1
+1678351641714	geckodriver	INFO	Listening on 127.0.0.1:49685
+1678351644771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilehvpY6h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678351645129	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678351645133	Marionette	INFO	Listening on port 49699
+Read port: 49699
+WebDriver BiDi listening on ws://127.0.0.1:49686
+1678351645296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofilehvpY6h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49686/devtools/browser/52b58ff6-a800-4676-8883-e111b517a135
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.yahoo.com."
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830845&zMoatMaster=11100493&zMoatFlight=11101939&zMoatBanner=26888735&zURL=https&zMoatPlacementId=4830845&zMoatAdId=11101939&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830845|0|225|AdId=11101939;BnId=2;ct=2981725084;st=16251;adcid=1;itime=351646774;reqtype=5;guid=9flcbhpi0j78t;;impref=167835164676907572;imprefseq=89515674157722509;imprefts=1678351646;adclntid=1004;spaceid=1183335883;adposition=LDRB;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=tPQ8YTIxNy6X1YuOZAmdHQI.MjEyLgAAAACxuKHO;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402907;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=225&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=NuCAIggB+EA&zMoatImpRefTs=1678351646&zMoatAlias=y402907&zMoatVert=&zMoatBannerInfo=498041664, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830847&zMoatMaster=11100493&zMoatFlight=11101861&zMoatBanner=26888708&zURL=https&zMoatPlacementId=4830847&zMoatAdId=11101861&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830847|0|170|AdId=11101861;BnId=2;ct=2981725084;st=20724;adcid=1;itime=351646777;reqtype=5;guid=9flcbhpi0j78t;;impref=167835164676907600;imprefseq=89515674157722515;imprefts=1678351646;adclntid=1004;spaceid=1183335883;adposition=LREC;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=tPQ8YTIxNy6X1YuOZAmdHQI.MjEyLgAAAACxuKHO;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402909;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=170&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=TuCAIggB+EA&zMoatImpRefTs=1678351646&zMoatAlias=y402909&zMoatVert=&zMoatBannerInfo=498041666, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 2791 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830848&zMoatMaster=11100493&zMoatFlight=11101864&zMoatBanner=26888709&zURL=https&zMoatPlacementId=4830848&zMoatAdId=11101864&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830848|0|170|AdId=11101864;BnId=2;ct=2981725084;st=23058;adcid=1;itime=351646779;reqtype=5;guid=9flcbhpi0j78t;;impref=167835164676907615;imprefseq=89515674157722518;imprefts=1678351646;adclntid=1004;spaceid=1183335883;adposition=LREC2;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=tPQ8YTIxNy6X1YuOZAmdHQI.MjEyLgAAAACxuKHO;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402910;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=170&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=WuCAIggB+EA&zMoatImpRefTs=1678351646&zMoatAlias=y402910&zMoatVert=&zMoatBannerInfo=498041668, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830846&zMoatMaster=11100493&zMoatFlight=11101985&zMoatBanner=26888736&zURL=https&zMoatPlacementId=4830846&zMoatAdId=11101985&zMoatCreative=0&zMoatBannerID=3&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830846|0|225|AdId=11101985;BnId=3;ct=2981725084;st=18455;adcid=1;itime=351646775;reqtype=5;guid=9flcbhpi0j78t;;impref=167835164676907585;imprefseq=89515674157722512;imprefts=1678351646;adclntid=1004;spaceid=1183335883;adposition=LDRB2;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=tPQ8YTIxNy6X1YuOZAmdHQI.MjEyLgAAAACxuKHO;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402908;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=225&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=QuCAIggB+EA&zMoatImpRefTs=1678351646&zMoatAlias=y402908&zMoatVert=&zMoatBannerInfo=498041662, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678351912481	Marionette	INFO	Stopped listening on port 49699
+Dynamically enable window occlusion 1
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ble window occlusion 0
+1678351894157	Marionette	INFO	Listening on port 55901
+Read port: 55901
+WebDriver BiDi listening on ws://127.0.0.1:55887
+1678351894297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cyril\\AppData\\Local\\Temp\\rust_mozprofileovyAsn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55887/devtools/browser/bbd0043e-358c-4660-bbbe-d05e4ef6491c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.yahoo.com."
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830845&zMoatMaster=11100493&zMoatFlight=11101939&zMoatBanner=26888735&zURL=https&zMoatPlacementId=4830845&zMoatAdId=11101939&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830845|0|225|AdId=11101939;BnId=2;ct=3230723679;st=17882;adcid=1;itime=351895401;reqtype=5;guid=015svuli0j7gm;;impref=167835189519034315;imprefseq=143840314598108661;imprefts=1678351895;adclntid=1004;spaceid=1183335883;adposition=LDRB;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=qRsAyzIxNy4Al5_1ZAmeFgC1MjEyLgAAAADAkAh.;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402907;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter%2Cjarvisusfindeskstrmconmigrat00;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=225&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=13CAIEgB/HA&zMoatImpRefTs=1678351895&zMoatAlias=y402907&zMoatVert=&zMoatBannerInfo=498041664, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830847&zMoatMaster=11100493&zMoatFlight=11101861&zMoatBanner=26888708&zURL=https&zMoatPlacementId=4830847&zMoatAdId=11101861&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830847|0|170|AdId=11101861;BnId=2;ct=3230723679;st=21465;adcid=1;itime=351895404;reqtype=5;guid=015svuli0j7gm;;impref=167835189519034334;imprefseq=143840314598108667;imprefts=1678351895;adclntid=1004;spaceid=1183335883;adposition=LREC;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=qRsAyzIxNy4Al5_1ZAmeFgC1MjEyLgAAAADAkAh.;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402909;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter%2Cjarvisusfindeskstrmconmigrat00;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=170&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=73CAIEgB/HA&zMoatImpRefTs=1678351895&zMoatAlias=y402909&zMoatVert=&zMoatBannerInfo=498041666, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 2223 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 1200 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830846&zMoatMaster=11100493&zMoatFlight=11101985&zMoatBanner=26888736&zURL=https&zMoatPlacementId=4830846&zMoatAdId=11101985&zMoatCreative=0&zMoatBannerID=3&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830846|0|225|AdId=11101985;BnId=3;ct=3230723679;st=19669;adcid=1;itime=351895402;reqtype=5;guid=015svuli0j7gm;;impref=167835189519034324;imprefseq=143840314598108664;imprefts=1678351895;adclntid=1004;spaceid=1183335883;adposition=LDRB2;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=qRsAyzIxNy4Al5_1ZAmeFgC1MjEyLgAAAADAkAh.;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402908;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter%2Cjarvisusfindeskstrmconmigrat00;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=225&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=43CAIEgB/HA&zMoatImpRefTs=1678351895&zMoatAlias=y402908&zMoatVert=&zMoatBannerInfo=498041662, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=4830848&zMoatMaster=11100493&zMoatFlight=11101864&zMoatBanner=26888709&zURL=https&zMoatPlacementId=4830848&zMoatAdId=11101864&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://6.ras.yahoo.com/adcount|2.0|5113.1|4830848|0|170|AdId=11101864;BnId=2;ct=3230723679;st=23513;adcid=1;itime=351895405;reqtype=5;guid=015svuli0j7gm;;impref=167835189519034347;imprefseq=143840314598108670;imprefts=1678351895;adclntid=1004;spaceid=1183335883;adposition=LREC2;lmsid=;revshare=pt%253Autility%253Bsite%253Afinance%253Bver%253Aydotcom%253Bpct%253Ascreener%253Blu%253A0;pvid=qRsAyzIxNy4Al5_1ZAmeFgC1MjEyLgAAAADAkAh.;sectionid=313287051;kvsecure%2Ddarla=4%2D10%2D1%7Cysd%7C1;kvsecure=true;kvmn=y402910;kvy%2Dbucket=fd%2Dqsp%2Dno%2Dstickyfooter%2Cjarvisusfindeskstrmconmigrat00;kvpgcolo=ir2;kvrs=pt:utility:ver:site:screener:lu:pct:ydotcom:0:finance;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=windows%5F10;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Fwindows;kvrepo%5Fdvosplt=windows%5F10;kvadtc%5Fdvosversion=NT%2010%2E0;kvadtc%5Fcrmcc=UNKNOWN;kvadtc%5Fcrmnc=UNKNOWN;gdpr=1;euconsent=CPoW08APoW08AAOACBNLC6CoAP_AAEfAACiQJMtd_H__bX9v-f7_6ft0eY1f9_rz7uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDVmxaokVrzHsak2cpTNKJ-BkkHsZe2dYGF5vm5tj-QKZ5v5_d3f52T_9_9v-39z33913v3d93-_12PjdU5_9H_v_fR_b8_Kf9_7-_4v8_9_rk3_e______9v__4JMgEmGrcQBdiWOBNoGEUCIEYVhIRQKACCgGFogIAHBwU7KwCfWESABAKAIwIgQ4AowIBAAABAEhEAEgRYIAAARAIAAQAIBEIACBgEFABYCAQAAgGgYohQACBIAZEBEUpgQEQJBAS2VCCUF0hphAFWWAFAIjYKABEAAArAAEBYOAYIkBKxYIEmINogBGAFAKJUK1BJ6YAYaADAAEEmREAGAAIJMioAMAAQSZA;&zMoatSize=170&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=+3CAIEgB/HA&zMoatImpRefTs=1678351895&zMoatAlias=y402910&zMoatVert=&zMoatBannerInfo=498041668, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 1865 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678351907609	Marionette	INFO	Stopped listening on port 55901
+Dynamically enable window occlusion 1
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 37200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
