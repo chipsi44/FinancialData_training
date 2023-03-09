@@ -1,8 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-import pandas as pd
 
 def get_the_page_firefox(link) :
         driver = webdriver.Firefox()
@@ -36,17 +34,11 @@ def get_entreprise(driver) :
         for selenium_elem_td in td_elem_in_tr :
             entreprise_list[-1].append(selenium_elem_td.text)
     return entreprise_list
-def create_a_CSV(entreprise_list,my_header_list,csv_name) :
-    for elem in entreprise_list :
-        elem.pop()  # remove the last element of each inner list
-    df = pd.DataFrame(data=entreprise_list, columns=my_header_list)
-    df.to_csv(csv_name, index=False)
 
-def main_scrap_financeYahoo(link,csv_name) :
+
+def main_scrap_financeYahoo(link) :
     driver = get_the_page_firefox(link)
     Accept_the_cookies_financeYahoo(driver)
     my_header_list = get_header_financeYahoo(driver)
     entreprise_list = get_entreprise(driver)
-    create_a_CSV(entreprise_list,my_header_list,csv_name)
-
-main_scrap_financeYahoo("https://finance.yahoo.com/most-active?offset=0&count=100","data/financeYahoo_dataframe.csv")
+    return entreprise_list,my_header_list
