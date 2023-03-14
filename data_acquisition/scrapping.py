@@ -1,24 +1,24 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+import time
 
 def get_the_page_firefox(link) :
-        '''options = webdriver.FirefoxOptions()
+        options = webdriver.FirefoxOptions()
         options.accept_insecure_certs = True
         driver = webdriver.Remote(
-            command_executor='http://localhost:4444/wd/hub',
-            options=options
-            )'''
-        driver = webdriver.Chrome()
+        command_executor='http://localhost:4444/wd/hub',
+        options=options
+        )
+        
+        #driver = webdriver.Chrome()
         driver.set_page_load_timeout(60)
         driver.get(link)
         return driver
 
 def Accept_the_cookies_financeYahoo(driver) :
-
     scroll_button = driver.find_element(By.ID, "scroll-down-btn")
     scroll_button.click()
-
+        
     cookie_button = driver.find_element(By.XPATH, "//button[@class='btn secondary accept-all ' and @name='agree']")
     cookie_button.click()
 
@@ -49,6 +49,9 @@ def main_scrap_financeYahoo(link) :
     my_header_list = get_header_financeYahoo(driver)
     entreprise_list = get_entreprise(driver)
     #close the browser
-    driver.close()
-    driver.quit()
+    try :
+        driver.close()
+        driver.quit()
+    except : 
+        print("Driver not closed")
     return entreprise_list,my_header_list
