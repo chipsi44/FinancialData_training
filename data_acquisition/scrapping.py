@@ -1,16 +1,15 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+from selenium.webdriver.common.by import Bys
 
 
 def get_the_page_firefox(link) :
-        options = webdriver.FirefoxOptions()
+        '''options = webdriver.FirefoxOptions()
         options.accept_insecure_certs = True
         driver = webdriver.Remote(
         command_executor='http://localhost:4444/wd/hub',
         options=options
-        )
-        
-        #driver = webdriver.Chrome()
+        )'''
+        driver = webdriver.Firefox()
         driver.set_page_load_timeout(60)
         driver.get(link)
         return driver
