@@ -3,7 +3,13 @@ from selenium.webdriver.common.by import By
 
 
 def get_the_page_firefox(link) :
-        driver = webdriver.Firefox()
+        options = webdriver.FirefoxOptions()
+        options.accept_insecure_certs = True
+        driver = webdriver.Remote(
+            command_executor='http://localhost:4444/wd/hub',
+            options=options
+            )
+        #driver = webdriver.Firefox()
         driver.get(link)
         return driver
 
@@ -41,4 +47,7 @@ def main_scrap_financeYahoo(link) :
     Accept_the_cookies_financeYahoo(driver)
     my_header_list = get_header_financeYahoo(driver)
     entreprise_list = get_entreprise(driver)
+    #close the browser
+    driver.close()
+    driver.quit()
     return entreprise_list,my_header_list
