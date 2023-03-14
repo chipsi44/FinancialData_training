@@ -4,6 +4,8 @@ from airflow.operators.python import PythonOperator
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
+import logging
+import time
 
 def dag_scrapping() :
     filename = "data/financeYahoo_dataframe.csv"
@@ -15,11 +17,12 @@ def dag_scrapping() :
     #export it as a CV
     df_concat.to_csv(filename, index=False)
 
+
 # Define default arguments for the DAG
 default_args = {
     'owner': 'Cyril_AI',
     'depends_on_past': False,
-    'start_date': datetime(2023, 3, 15, 23), # start at 23:00
+    'start_date': datetime(2023, 3, 12, 23), # start at 23:00
     'retries': 1,
     'retry_delay': timedelta(minutes=5)
 }
@@ -39,3 +42,5 @@ scrap_financeYahoo_operator = PythonOperator(
     dag=dag
 )
 
+
+scrap_financeYahoo_operator

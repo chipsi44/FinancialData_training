@@ -49,4 +49,9 @@ def main_scrap_financeYahoo(link) :
     Accept_the_cookies_financeYahoo(driver)
     my_header_list = get_header_financeYahoo(driver)
     entreprise_list = get_entreprise(driver)
+    try :
+        driver.close()
+        driver.quit()
+    except : 
+        print("Driver not closed")
     return entreprise_list,my_header_list
