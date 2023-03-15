@@ -1,0 +1,18 @@
+
+create a docker network
+docker network create my-network
+
+get firefox selenium grid 
+docker pull selenium/standalone-firefox 
+
+run the selenium grid in my network
+docker run -d --network my-network --name selenium-container -p 4444:4444 selenium/standalone-firefox:latest               
+
+build docker image of my app for airflow
+docker build -t monapp:1.0 . 
+
+run the app for airflow
+docker run -d --network my-network --name monapp-container -p 8080:8080 monapp:1.0                                         
+
+Copy the file from the docker to the local users ! 
+docker cp 411b1f79b72b723c37dac10640a6ebdbc8738323bd98dd7d017dd90d16e8f2ed:/app/dags/data/financeYahoo_dataframe.csv ./data
