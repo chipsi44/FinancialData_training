@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.providers.docker.operators.docker import DockerOperator
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
@@ -36,6 +37,14 @@ dag = DAG(
 scrap_financeYahoo_operator = PythonOperator(
     task_id='Yahoo_scrapping',
     python_callable=dag_scrapping,
+    dag=dag
+)
+
+docker_task = DockerOperator(
+    task_id='docker_task',
+    image='my-docker-image:latest',
+    command='bash -c "docker cp container:/path/to/file /host/path/"',
+    network_mode='bridge',
     dag=dag
 )
 
