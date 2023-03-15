@@ -23,7 +23,7 @@ default_args = {
     'owner': 'Cyril_AI',
     'depends_on_past': False,
     'start_date': datetime(2023, 3, 12, 23), # start at 23:00
-    'retries': 1,
+    'retries': 0,
     'retry_delay': timedelta(minutes=5)
 }
 
