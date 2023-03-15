@@ -1,15 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 def get_the_page_firefox(link) :
-        '''options = webdriver.FirefoxOptions()
+        options = webdriver.FirefoxOptions()
         options.accept_insecure_certs = True
         driver = webdriver.Remote(
-        command_executor='http://localhost:4444/wd/hub',
+        #command_executor='http://localhost:4444/wd/hub',
+        command_executor='http://selenium-container:4444/wd/hub',
         options=options
-        )'''
-        driver = webdriver.Firefox()
+        )
+        #driver = webdriver.Firefox()
         driver.set_page_load_timeout(60)
         driver.get(link)
         return driver
@@ -54,3 +54,4 @@ def main_scrap_financeYahoo(link) :
     except : 
         print("Driver not closed")
     return entreprise_list,my_header_list
+
