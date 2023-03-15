@@ -5,6 +5,7 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
+import sqlite3
 
 def dag_scrapping() :
     filename = "dags/data/financeYahoo_dataframe.csv"
@@ -15,7 +16,12 @@ def dag_scrapping() :
     df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)
     #export it as a CV
     df_concat.to_csv(filename, index=False)
-
+    # Create a connection to the SQLite database file
+    conn = sqlite3.connect('data/my_database.db')
+    # Write the DataFrame to a SQLite database table
+    df_concat.to_sql('stocks', conn, if_exists='replace', index=False)
+    # Close the database connection
+    conn.close()
 
 # Define default arguments for the DAG
 default_args = {
@@ -40,21 +46,27 @@ scrap_financeYahoo_operator = PythonOperator(
     dag=dag
 )
 
-docker_task = DockerOperator(
-    task_id='docker_task',
-    image='my-docker-image:latest',
-    command='bash -c "docker cp container:/path/to/file /host/path/"',
-    network_mode='bridge',
-    dag=dag
-)
 
 scrap_financeYahoo_operator
 
+'''
+t1 = DockerOperator(
+        task_id='copy_file_to_local',
+        image='docker',
+        api_version='auto',
+        command='cp monapp-container:/app/dags/data/financeYahoo_dataframe.csv ./data',
+        network_mode='bridge',
+        docker_url='unix://var/run/docker.sock',
+        volumes=['C:/Users/Cyril/Desktop/BeCode/data/:/data'],
+        auto_remove=True
+    )
+'''
 # -------------------------
 '''
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
+import sqlite3
 
 def main() :
     filename = "data/financeYahoo_dataframe.csv"
@@ -65,7 +77,15 @@ def main() :
     df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)
     #export it as a CV
     df_concat.to_csv(filename, index=False)
+    # Create a connection to the SQLite database file
+    conn = sqlite3.connect('data/my_database.db')
 
+    # Write the DataFrame to a SQLite database table
+    df_concat.to_sql('stocks', conn, if_exists='replace', index=False)
+
+    # Close the database connection
+    conn.close()
 if __name__ == "__main__" :
     main()
+
 '''

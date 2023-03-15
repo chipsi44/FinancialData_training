@@ -5,7 +5,6 @@ def get_the_page_firefox(link) :
         options = webdriver.FirefoxOptions()
         options.accept_insecure_certs = True
         driver = webdriver.Remote(
-        #command_executor='http://localhost:4444/wd/hub',
         command_executor='http://selenium-container:4444/wd/hub',
         options=options
         )
