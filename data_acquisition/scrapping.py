@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import Bys
+from selenium.webdriver.common.by import By
 
 
 def get_the_page_firefox(link) :
