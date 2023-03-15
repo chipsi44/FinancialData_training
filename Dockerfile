@@ -12,7 +12,8 @@ RUN pip install --upgrade pip && \
 # Copy the DAG file into the container
 COPY dag_file_airflow.py /app/dags/
 COPY data_acquisition /app/dags/data_acquisition/
-COPY data /app/dags/data/
+RUN mkdir -p /app/dags/data
+COPY ./data /app/dags/data
 # Set the AIRFLOW_HOME environment variable
 ENV AIRFLOW_HOME=/app
 

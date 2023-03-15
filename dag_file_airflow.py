@@ -4,11 +4,9 @@ from airflow.operators.python import PythonOperator
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
-import logging
-import time
 
 def dag_scrapping() :
-    filename = "data/financeYahoo_dataframe.csv"
+    filename = "dags/data/financeYahoo_dataframe.csv"
     if os.path.exists(filename):
         os.remove(filename)
     df1,df2 = launch_threading()
@@ -23,8 +21,7 @@ default_args = {
     'owner': 'Cyril_AI',
     'depends_on_past': False,
     'start_date': datetime(2023, 3, 12, 23), # start at 23:00
-    'retries': 0,
-    'retry_delay': timedelta(minutes=5)
+    'retries': 0
 }
 
 # Define the DAG
