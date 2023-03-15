@@ -45,8 +45,8 @@ scrap_financeYahoo_operator = PythonOperator(
 scrap_financeYahoo_operator
 
 # -------------------------
-
-'''from data_acquisition.thread_scrapping import launch_threading
+'''
+from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
 
@@ -61,5 +61,5 @@ def main() :
     df_concat.to_csv(filename, index=False)
 
 if __name__ == "__main__" :
-    main()'''
-
+    main()
+'''
