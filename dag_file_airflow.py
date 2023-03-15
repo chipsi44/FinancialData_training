@@ -16,12 +16,12 @@ def dag_scrapping() :
     df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)
     #export it as a CV
     df_concat.to_csv(filename, index=False)
-    # Create a connection to the SQLite database file
+    ''' # Create a connection to the SQLite database file
     conn = sqlite3.connect('data/my_database.db')
     # Write the DataFrame to a SQLite database table
     df_concat.to_sql('stocks', conn, if_exists='replace', index=False)
     # Close the database connection
-    conn.close()
+    conn.close()'''
 
 # Define default arguments for the DAG
 default_args = {
