@@ -1,11 +1,9 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.providers.docker.operators.docker import DockerOperator
 from data_acquisition.thread_scrapping import launch_threading
 import pandas as pd
 import os
-import sqlite3
 
 def dag_scrapping() :
     filename = "dags/data/financeYahoo_dataframe.csv"
@@ -43,33 +41,3 @@ scrap_financeYahoo_operator = PythonOperator(
 
 
 scrap_financeYahoo_operator
-
-
-# -------------------------
-'''
-from data_acquisition.thread_scrapping import launch_threading
-import pandas as pd
-import os
-import sqlite3
-
-def main() :
-    filename = "data/financeYahoo_dataframe.csv"
-    if os.path.exists(filename):
-        os.remove(filename)
-    df1,df2 = launch_threading()
-    #concat the 2 DataFrame
-    df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)
-    #export it as a CV
-    df_concat.to_csv(filename, index=False)
-    # Create a connection to the SQLite database file
-    conn = sqlite3.connect('data/my_database.db')
-
-    # Write the DataFrame to a SQLite database table
-    df_concat.to_sql('stocks', conn, if_exists='replace', index=False)
-
-    # Close the database connection
-    conn.close()
-if __name__ == "__main__" :
-    main()
-
-'''

@@ -1,6 +1,5 @@
 pandas==1.5.2
 selenium==4.8.2
 apache-airflow==2.5.1
-apache_airflow_providers_docker==3.5.1
 Flask==2.2.2
 scikit_learn==1.2.1
