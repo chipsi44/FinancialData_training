@@ -55,6 +55,7 @@ __&nbsp;&nbsp;*How to use Docker ?*__
 
 ### &nbsp; __5. Possible improvement__ :
 * To enhance the project further, I could have implemented the following improvements given more time: 
+    * Get other data from other sources.
     * Automate the process of retrieving the CSV file by creating a DAG that uses the docker cp command.
     * Transition from CSV file to a database for better data management.
     * Host the database online and update it directly during the scraping process instead of retrieving the CSV file.
