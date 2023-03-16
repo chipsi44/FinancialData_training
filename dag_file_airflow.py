@@ -16,12 +16,7 @@ def dag_scrapping() :
     df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)
     #export it as a CV
     df_concat.to_csv(filename, index=False)
-    ''' # Create a connection to the SQLite database file
-    conn = sqlite3.connect('data/my_database.db')
-    # Write the DataFrame to a SQLite database table
-    df_concat.to_sql('stocks', conn, if_exists='replace', index=False)
-    # Close the database connection
-    conn.close()'''
+    
 
 # Define default arguments for the DAG
 default_args = {
@@ -49,18 +44,7 @@ scrap_financeYahoo_operator = PythonOperator(
 
 scrap_financeYahoo_operator
 
-'''
-t1 = DockerOperator(
-        task_id='copy_file_to_local',
-        image='docker',
-        api_version='auto',
-        command='cp monapp-container:/app/dags/data/financeYahoo_dataframe.csv ./data',
-        network_mode='bridge',
-        docker_url='unix://var/run/docker.sock',
-        volumes=['C:/Users/Cyril/Desktop/BeCode/data/:/data'],
-        auto_remove=True
-    )
-'''
+
 # -------------------------
 '''
 from data_acquisition.thread_scrapping import launch_threading
