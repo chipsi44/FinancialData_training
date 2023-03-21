@@ -1,11 +1,32 @@
 # __FinancialData_training__
 
-## __The mission__ :
+## __Deliverables__ :
 * This is a collaborative learning project involving multiple individuals. As a data engineer, it was my responsibility to ensure the following tasks were completed:
     * Create a scrapper that obtains financial information from at least two sources (e.g. Yahoo Finance and Google News). 
     * Adapt your solution to use Airflow to schedule and update the data from your sources. 
-    * Ideally, this data should be accesible to the client in the form of a database.
-## __How to ?__ 
+* Create a tutorial on how to use Airflow, Docker, and Selenium together :
+   
+   * [Tutorial with exercises](https://github.com/chipsi44/SeleniumAirflowDocker).
+   * [Corrected tutorial](https://github.com/chipsi44/SeleniumAirflowDocker/tree/Corrected_Tuto).
+
+## __How to use?__
+
+Install Docker and pull the Selenium Grid images for Firefox.
+Create a Docker network and run the Selenium Grid images in the network :
+* docker pull selenium/standalone-firefox 
+* docker network create my-network
+* docker run -d --network my-network --name selenium-container -p 4444:4444 selenium/standalone-firefox:latest
+
+You can now create a Docker image with my Dockerfile and run the image in the same network :
+
+* docker build -t my_airflow_container:latest . 
+* docker run -d --network my-network --name monapp-container -p 8080:8080 my_airflow_container:latest     
+
+You can now access the Selenium Grid on local port 4444 and the Airflow web interface on local port 8080. You can manually launch my DAG and see that sessions will be created on the Selenium Grid. Afterwards, you can extract the file using:
+
+* docker cp monapp-container:/app/dags/data/financeYahoo_dataframe.csv ./data 
+
+## __How to do it ?__ 
 ### &nbsp; __1. The scrapping :__
 &nbsp;&nbsp;&nbsp;&nbsp;While this project does not primarily focus on web scraping, I have developed a simple scraping code to extract data from Yahoo Finance. Using Selenium and Pandas, I have scraped the [first two pages of the most active stocks](https://finance.yahoo.com/most-active) to obtain information.
 ### &nbsp;__2. Threading :__
@@ -63,7 +84,7 @@ __&nbsp;&nbsp;*How to use Docker ?*__
 ### &nbsp; __6. What's next ?__ :
 &nbsp;&nbsp;During the project, I realized that there is a lack of up-to-date tutorials, exercises, and documentation on using Apache Airflow in conjunction with Selenium and Docker. As a result, I have decided to create some exercises and tutorials and provide resources to assist individuals working with this technology stack. 
 
-&nbsp;&nbsp;I will be creating a new repository for this project, which will include a notebook detailing the various steps involved. In addition, I will create a detailed and comprehensive README file to guide users through the project and provide clear instructions on how to get started. 
+&nbsp;&nbsp;I will be creating a new repository for this project, which will include a [notebook](https://github.com/chipsi44/SeleniumAirflowDocker) detailing the various steps involved. In addition, I will create a detailed and [comprehensive README](https://github.com/chipsi44/SeleniumAirflowDocker/tree/Corrected_Tuto) file to guide users through the project and provide clear instructions on how to get started. 
 
 ### &nbsp; __Contributor__ :
 * [Cyril Verwimp](https://www.linkedin.com/in/cyril-verwimp-8a0457208/)
