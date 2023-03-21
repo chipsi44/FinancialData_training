@@ -14,8 +14,14 @@ Create a Docker network and run the Selenium Grid images in the network :
 * docker network create my-network
 * docker run -d --network my-network --name selenium-container -p 4444:4444 selenium/standalone-firefox:latest
 
-You can now create a docker image with my Dockerfile :
+You can now create a Docker image with my Dockerfile and run the image in the same network :
 
+* docker build -t my_airflow_container:latest . 
+* docker run -d --network my-network --name monapp-container -p 8080:8080 my_airflow_container:latest     
+
+You can now access the Selenium Grid on local port 4444 and the Airflow web interface on local port 8080. You can manually launch my DAG and see that sessions will be created on the Selenium Grid. Afterwards, you can extract the file using:
+
+* docker cp monapp-container:/app/dags/data/financeYahoo_dataframe.csv ./data 
 
 ## __How to do it ?__ 
 ### &nbsp; __1. The scrapping :__
@@ -75,7 +81,7 @@ __&nbsp;&nbsp;*How to use Docker ?*__
 ### &nbsp; __6. What's next ?__ :
 &nbsp;&nbsp;During the project, I realized that there is a lack of up-to-date tutorials, exercises, and documentation on using Apache Airflow in conjunction with Selenium and Docker. As a result, I have decided to create some exercises and tutorials and provide resources to assist individuals working with this technology stack. 
 
-&nbsp;&nbsp;I will be creating a new repository for this project, which will include a notebook detailing the various steps involved. In addition, I will create a detailed and comprehensive README file to guide users through the project and provide clear instructions on how to get started. 
+&nbsp;&nbsp;I will be creating a new repository for this project, which will include a [notebook](https://github.com/chipsi44/SeleniumAirflowDocker) detailing the various steps involved. In addition, I will create a detailed and [comprehensive README](https://github.com/chipsi44/SeleniumAirflowDocker/tree/Corrected_Tuto) file to guide users through the project and provide clear instructions on how to get started. 
 
 ### &nbsp; __Contributor__ :
 * [Cyril Verwimp](https://www.linkedin.com/in/cyril-verwimp-8a0457208/)
