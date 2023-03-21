@@ -5,7 +5,8 @@
     * Create a scrapper that obtains financial information from at least two sources (e.g. Yahoo Finance and Google News). 
     * Adapt your solution to use Airflow to schedule and update the data from your sources. 
     * Ideally, this data should be accesible to the client in the form of a database.
-##__How to use?__
+
+## __How to use?__
 
 Install Docker and pull the Selenium Grid images for Firefox.
 Create a Docker network and run the Selenium Grid images in the network :
