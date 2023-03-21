@@ -5,7 +5,18 @@
     * Create a scrapper that obtains financial information from at least two sources (e.g. Yahoo Finance and Google News). 
     * Adapt your solution to use Airflow to schedule and update the data from your sources. 
     * Ideally, this data should be accesible to the client in the form of a database.
-## __How to ?__ 
+##__How to use?__
+
+Install Docker and pull the Selenium Grid images for Firefox.
+Create a Docker network and run the Selenium Grid images in the network :
+* docker pull selenium/standalone-firefox 
+* docker network create my-network
+* docker run -d --network my-network --name selenium-container -p 4444:4444 selenium/standalone-firefox:latest
+
+You can now create a docker image with my Dockerfile :
+
+
+## __How to do it ?__ 
 ### &nbsp; __1. The scrapping :__
 &nbsp;&nbsp;&nbsp;&nbsp;While this project does not primarily focus on web scraping, I have developed a simple scraping code to extract data from Yahoo Finance. Using Selenium and Pandas, I have scraped the [first two pages of the most active stocks](https://finance.yahoo.com/most-active) to obtain information.
 ### &nbsp;__2. Threading :__
