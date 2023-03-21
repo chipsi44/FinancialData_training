@@ -1,6 +1,6 @@
 # __FinancialData_training__
 
-## __deliverables__ :
+## __Deliverables__ :
 * This is a collaborative learning project involving multiple individuals. As a data engineer, it was my responsibility to ensure the following tasks were completed:
     * Create a scrapper that obtains financial information from at least two sources (e.g. Yahoo Finance and Google News). 
     * Adapt your solution to use Airflow to schedule and update the data from your sources. 
