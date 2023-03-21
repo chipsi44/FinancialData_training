@@ -29,7 +29,8 @@ dag = DAG(
     'dag_scrapping', # DAG name
     default_args=default_args,
     description='Scrapp financial info on Yahoo finance',
-    schedule_interval=timedelta(days=1) # run every day
+    schedule_interval=timedelta(days=1), # run every day
+    catchup=False
 )
 
 # Define the Python Operators that will run the functions
