@@ -1,10 +1,12 @@
 # __FinancialData_training__
 
-## __The mission__ :
+## __deliverables :
 * This is a collaborative learning project involving multiple individuals. As a data engineer, it was my responsibility to ensure the following tasks were completed:
     * Create a scrapper that obtains financial information from at least two sources (e.g. Yahoo Finance and Google News). 
     * Adapt your solution to use Airflow to schedule and update the data from your sources. 
-    * Ideally, this data should be accesible to the client in the form of a database.
+* Create a tutorial on how to use Airflow, Docker, and Selenium together :
+      * [Tutorial with exercises](https://github.com/chipsi44/SeleniumAirflowDocker).
+      * [Corrected tutorial](https://github.com/chipsi44/SeleniumAirflowDocker/tree/Corrected_Tuto).
 
 ## __How to use?__
 
